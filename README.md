@@ -4,6 +4,7 @@
 **Introduction**
 
 In this PA, you will write a HTTP client that will download a webpage given its URL (i.e., the link to the page). Just like the server in your PA6, an HTTP server supports TCP connections. However, the difference is that HTTP servers use the standard HTTP protocol which you must implement from your client program to be able to communicate with it. As you can imagine, there are similar programs out there who perform similar functions. The most notable example is your browser that can connect to a remote web server, download the content and view it in a nicely formatted manner inside the browser. Another example is the linux command wget, which downloads a given page; but instead of showing it, wget actually just the page as a file in the current directory. We are going to emulate the functionality of wget in this PA. The work done by the browser for viewing the page content requires more work, and therefore it is beyond the scope of this PA.
+<br><br>
 
 *HTTP Protocol Basics*
 
@@ -36,8 +37,9 @@ source https://www.tutorialspoint.com/http/http_requests.htm
 5. To verify that you downloaded the file correctly by downloading the same page using the linux command wget and save that using another name. Now compare the 2 files using the diff command in linux. There should not be any difference
 
 6. Test your program to download at least 20 URL in this [link](https://docs.google.com/document/d/1YrPHi5n2KHPkya6Ii0pkNqHwVRWF79DXPxewEVVWKH4/edit?usp=sharing) and show that your program works correctly for all of them.
+<br><br>
 
-A few other points:
+*A Few Other Points:*
 
 1. You must test your program with URLs containing both host name and request portions. For
 
