@@ -1,5 +1,5 @@
 
-# <p align="center">PA7: HTTP Protocol</p>
+# <p align="center">PA6: HTTP Protocol</p>
 
 **Introduction**
 
